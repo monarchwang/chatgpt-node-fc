@@ -1,14 +1,6 @@
 #!/bin/bash
 set -e
-
-# TODO 设置OpenAI API Key
-export OPENAI_API_KEY=
-# TODO  阿里云容器镜像服务 相关设置，命名空间、访问凭证
-export ACR_NAMESPACE=
-export ACR_USERNAME=
-export ACR_PASSWORD=
-
-
+source .env
 
 npm install
 npm run build
