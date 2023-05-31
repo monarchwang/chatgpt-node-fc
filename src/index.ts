@@ -20,7 +20,9 @@ app.all('*', (_, res, next) => {
 });
 
 router.get('/healthy', async (req, res) => {
-  res.send({ 'success': true });
+  const config = await chatConfig();
+
+  res.send({ 'success': true, config });
 });
 
 router.post('/chat-process', [auth, limiter], async (req, res) => {
