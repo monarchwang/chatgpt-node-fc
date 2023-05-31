@@ -1,5 +1,5 @@
 # chatgpt-node-fc
-ChatGPT NodeJS SDK
+ChatGPT NodeJS SDK  forked from https://github.com/Chanzhaoyu/chatgpt-web/tree/main/service
 
 ## 如何使用
 
